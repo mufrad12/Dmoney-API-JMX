@@ -114,7 +114,7 @@
     &quot;name&quot;:&quot;Agent${randomId}&quot;,&#xd;
     &quot;email&quot;:&quot;agent${randomId}@test.com&quot;,&#xd;
     &quot;password&quot;:&quot;12345&quot;,&#xd;
-    &quot;phone_number&quot;:&quot;017${randomId}&quot;,&#xd;
+    &quot;phone_number&quot;:&quot;0171234${randomId}&quot;,&#xd;
     &quot;nid&quot;:&quot;123456789&quot;,&#xd;
     &quot;role&quot;:&quot;Agent&quot;&#xd;
 }</stringProp>
@@ -154,7 +154,7 @@
           <hashTree/>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-1366473484">User created successfully</stringProp>
+              <stringProp name="295657395">User created</stringProp>
             </collectionProp>
             <stringProp name="Assertion.custom_message"></stringProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
@@ -214,7 +214,7 @@
     &quot;name&quot;:&quot;Customer ${cusrandomId}&quot;,&#xd;
     &quot;email&quot;:&quot;user${cusrandomId}@test.com&quot;,&#xd;
     &quot;password&quot;:&quot;1234&quot;,&#xd;
-    &quot;phone_number&quot;:&quot;017${cusrandomId}&quot;,&#xd;
+    &quot;phone_number&quot;:&quot;0171234${cusrandomId}&quot;,&#xd;
     &quot;nid&quot;:&quot;123456789&quot;,&#xd;
     &quot;role&quot;:&quot;Customer&quot;&#xd;
 }</stringProp>
@@ -260,7 +260,7 @@
           <hashTree/>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-1366473484">User created successfully</stringProp>
+              <stringProp name="295657395">User created</stringProp>
             </collectionProp>
             <stringProp name="Assertion.custom_message"></stringProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
@@ -277,7 +277,7 @@
           <stringProp name="HTTPSampler.port"></stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">/user/search/${customerNumber}</stringProp>
+          <stringProp name="HTTPSampler.path">/user/search/phonenumber/${customerNumber}</stringProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
